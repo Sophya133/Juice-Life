@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Raleway';  /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
-  src: url('./Raleway/Raleway-Medium.woff2') format('woff2'), /* пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
-       url('./Raleway/Raleway-Medium.woff') format('woff');
-  font-weight: 400; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
-  font-style: normal; /* пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
-  font-display: swap; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+  font-family: '';  /* Название шрифта */ 
+  src: url('./') format('woff2'), /* Путь к расположению шрифта */ 
+       url('./') format('woff');
+  font-weight: 400; /* Толщина шрифта */ 
+  font-style: normal; /* Стиль шрифта */ 
+  font-display: swap; /* Отображение шрифта */ 
 }
