@@ -5,7 +5,6 @@
 @import '../blocks/page/page.css';
 /* Header */
 @import '../blocks/header/header.css';
-@import '../blocks/header/links/links.css';
 @import '../blocks/header/__title/header__title.css';
 /* Main */
 @import '../blocks/main/main.css';
