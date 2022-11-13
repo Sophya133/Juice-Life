@@ -1,0 +1,10 @@
+.lists{
+  list-style-type: none;
+  display:flex;
+  justify-content:space-around;
+  padding-left: 34px;
+padding-right: 34px;
+}
+.lists li a{
+  text-decoration: none;
+}
