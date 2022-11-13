@@ -9,7 +9,9 @@
 </head>
 <body class="page">
   <header>
-    <nav>
+    <nav class="container">
+     <a class="logo" href=""></a>
+      <span>Juice Life</span>
       <ul class="lists">
         <li><a class="list" href="#">Главная</a></li>
         <li><a class="list" href="#">Ассортимент</a></li>
@@ -17,12 +19,54 @@
         <li><a class="list" href="#">Доставка</a></li>
         <li><a class="list" href="#">Контакты</a></li>
       </ul>
-    </nav>
     <h1 class="header__title">Натуральные и свежие соки</h1>
+    <img src="images/juice.png" alt="">
+   </nav>
   </header>
-  <main class="main"></main>
-  <footer class="footer"></footer>
-  <script src="./script/index.js"></script>
+  <main class="main">
+    <div class="container1">
+      <h1 class="main__title">Преимущества</h1>
+      <img src="images/fresh fruits.png" alt="">
+      <h2 class="main__subtitle">Свежие фрукты и овощи</h2>
+      <img src="images/loyalnost bread.png" alt="">
+      <h2 class="main__subtitle">Программа лояльности</h2>
+      <img src="images/car.png" alt="">
+      <h2 class="main__subtitle">Быстрая доставка по Москве день в день</h2>
+    </div>
+    <div class="container2">
+      <h1 class="main__title">О нас</h1>
+    </div>
+    <div class="container3">
+      <h1 class="main__title">Программа лояльности</h1>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <h1 class="footer__title">Контактная информация</h1>
+      <div class="footer-col"><span>Вы можете связаться любым удобным для вас способом:</span></div>
+      <div class="footer-col"><span>г. Москва, ул. Новолесная, д.3, стр.1</span></div>
+      <div class="footer-col"><span>тел.: +7(915) 096-14-33</span></div>
+      <div class="footer-col">
+        <div class="social-bar-wrap">
+          <a title="Instagram" href="" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a title="Telegram" href="" target="_blank"><i class="fa fa-telegram"></i></a>
+          <a title="VK" href="" target="_blank"><i class="fa fa-VK"></i></a>
+        </div>
+      </div>
+      <div class="footer-col"><span>Или оставьте заявку:</span></div>
+      <div class="footer-col">
+        <ul class="buttons">
+          <button class="button">Ваше имя</button>
+          <button class="button">Ваш номер телефона</button>
+          <button class="button">E-mail</button>
+        </ul>
+    </div>
+  </footer>
+  <script src="./script/index.js">
+$('.nav-toggle').on('click', function(){
+    $('#menu').toggleClass('active');
+    });
+  </script>
 </body>
 </html>
 

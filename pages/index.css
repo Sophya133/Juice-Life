@@ -5,10 +5,12 @@
 @import '../blocks/page/page.css';
 /* Header */
 @import '../blocks/header/header.css';
-@import '../blocks/header/lists/lists.css';
+@import '../blocks/header/nav/container.css';
 @import '../blocks/header/__title/header__title.css';
 /* Main */
 @import '../blocks/main/main.css';
 @import '../blocks/lists/lists.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
+@import '../blocks/footer/container/container.css';
+
