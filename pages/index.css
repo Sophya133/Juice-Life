@@ -8,10 +8,18 @@
 @import '../blocks/header/logo/logo.css';
 @import '../blocks/header/nav/container.css';
 @import '../blocks/header/__title/header__title.css';
+@import '../blocks/header/submenu/submenu.css';
+@import '../blocks/header/lists/lists.css';
 /* Main */
 @import '../blocks/main/main.css';
 @import '../blocks/lists/lists.css';
+@import'../blocks/main/advantages/advantages.css';
+@import'../blocks/main/about-us/about-us.css';
+@import'../blocks/main/loyalnost/loyalnost.css';
+@import'../blocks/main/dostavka/dostavka.css';
+@import'../blocks/main/right/right.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
 @import '../blocks/footer/container/container.css';
+@import '../blocks/footer/sendmail/sendmail.css';
 

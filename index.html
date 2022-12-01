@@ -9,72 +9,96 @@
 </head>
 <body class="page">
   <header>
-    <a class="logo">
-      <img src="images/logo.svg" width="54" height="42" alt="">
-      <span>Juice Life</span>
-    </a>
-    <nav class="container">
+   <nav class="container">
+    <img src="images/logo.svg" width="54" height="42" alt="Логотип компании Juice Life">
+    <span>Juice Life</span>
       <ul class="lists">
         <li><a class="list" href="#">Главная</a></li>
-        <li><a class="list" href="#">Ассортимент</a></li>
-        <li><a class="list" href="#">О нас</a></li>
+        <li><a class="list" href="#">Ассортимент</a>
+        <ul class="submenu">
+          <li><a href="">Фруктовые</a></li>
+          <li><a href="">Ягодные</a></li>
+          <li><a href="">Овощные</a></li>
+        </ul>
+      </li>
+        <li><a class="list" href="#about">О нас</a></li>
         <li><a class="list" href="#">Доставка</a></li>
-        <li><a class="list" href="#">Контакты</a></li>
+        <li><a class="list" href="#contact">Контакты</a></li>
       </ul>
-        <b class="inf">
+      <b class="inf">
         <img src="images/тел.png" alt="">
         <span>+7(915)096-14-33</span>
         <img src="images/избран.png" alt="">
         <img src="images/корзина.png" alt="">
         </b>
+      <img src="images/juice.png" alt="" >
     <h1 class="header__title">Натуральные и свежие соки</h1>
-    <img src="images/juice.png" width="1280" height="853" alt="">
    </nav>
   </header>
   <main class="main">
-    <div class="container1">
-      <h1 class="main__title">Преимущества</h1>
-      <img src="images/fresh fruits.png" alt="">
-      <h2 class="main__subtitle">Свежие фрукты и овощи</h2>
-      <img src="images/loyalnost bread.png" alt="">
-      <h2 class="main__subtitle">Программа лояльности</h2>
-      <img src="images/car.png" alt="">
-      <h2 class="main__subtitle">Быстрая доставка по Москве день в день</h2>
+    <div class="advantages">
+      <h2 class="main__title">Преимущества</h2>
+      <img src="images/fresh fruits.png" alt="" class="right">
+      <h3 class="main__subtitle">Свежие фрукты и овощи</h3>
+      <p class="dostavka">Используем только качественные продукты без вредных химических удобрений</p>
+      <img src="images/loyalnost bread.png"  alt="" class="right">
+      <h3 class="main__subtitle">Программа лояльности</h3>
+      <p class="dostavka">Наша компания предлагает гибкую систему лояльности для наших покупателей</p>
+      <img src="images/car.png" alt="" class="right">
+      <h3 class="main__subtitle">Быстрая доставка по Москве день в день</h3>
+      <p class="dostavka">Доставим Ваш заказ в кротчайшие сроки или в удобное для Вас время</p>
     </div>
-    <div class="container2">
-      <h1 class="main__title">О нас</h1>
+    <div class="about-us" id="about">
+      <h2 class="main__title">О нас</h2>
+      <p class="dostavka">Мы занимаемся производством и продажей натуральных соков без консерваторов и прочей химии. Наши соки сделаны из самых свежих фруктов, овощей и ягод.
+        Интернет-магазин Juice Life - вот Ваш помощник в поисках свежих и ароматных свежевыжатых соков! Больше нет необходимости искать в магазинах свежие овощи и фрукты, покупать свежевыжималки и делать все дома.
+        Заказывайте наши соки и наслаждайтесь вкусными, недорогими, полезными продуктами в любое время года.
+        Juice Life - вкусно, выгодно, удобно!</p>
+        <img src="images/преимущ.png" alt="" >
     </div>
-    <div class="container3">
-      <h1 class="main__title">Программа лояльности</h1>
+    <div class="loyalnost">
+      <h2 class="main__title">Программа лояльности</h2>
+      <p class="dostavka">Вы получите скидку 10% на следующий заказ</p>
+      <p class="dostavka">Заполните форму</p>
+      <form class="obratnuj-zayvka" autocomplete="off" action='email.php' method='post'></form>
+      <div class="form-zayvka">
+        <div>
+          <input type='text' placeholder='Ваше имя' required></div>
+        <div>
+          <input type='text' placeholder='Номер телефона' required></div>
+        <div>
+          <input type='text' placeholder='e-mail'>
+        </div>
+        <input class="sendmail" type='submit' value='Отправить'>
+      </div>
+      </form>
     </div>
   </main>
-  <footer class="footer">
-    <div class="container">
-      <h1 class="footer__title">Контактная информация</h1>
-      <div class="footer-col"><span>Вы можете связаться любым удобным для вас способом:</span></div>
-      <div class="footer-col"><span>г. Москва, ул. Новолесная, д.3, стр.1</span></div>
-      <div class="footer-col"><span>тел.: +7(915) 096-14-33</span></div>
-      <div class="footer-col">
-        <div class="social-bar-wrap">
-          <a title="Instagram" href="" target="_blank"><i class="fa fa-instagram"></i></a>
-          <a title="Telegram" href="" target="_blank"><i class="fa fa-telegram"></i></a>
-          <a title="VK" href="" target="_blank"><i class="fa fa-VK"></i></a>
-        </div>
+  <footer class="footer" id="contact">
+    <form class="obratnuj-zvonok" autocomplete="off" action='email.php' method='post'>
+      <h2>Контактная информация</h2>
+      <h3>Вы можете связаться любым удобным для вас способом:</h3>
+      <p class="forma"> г. Москва, ул. Новолесная, д.3, стр.1</p>
+      <p class="forma">тел. : +7(915) 096-14-33</p>
+      <div class="social-bar-wrap">
+        <a title="Instagram" href="" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a title="Telegram" href="" target="_blank"><i class="fa fa-telegram"></i></a>
+        <a title="VK" href="" target="_blank"><i class="fa fa-VK"></i></a>
       </div>
-      <div class="footer-col"><span>Или оставьте заявку:</span></div>
-      <div class="footer-col">
-        <ul class="buttons">
-          <button class="button">Ваше имя</button>
-          <button class="button">Ваш номер телефона</button>
-          <button class="button">E-mail</button>
-        </ul>
-    </div>
+  </div>
+      <h3>Или оставьте заявку</h3>
+      <div class="form-zvonok">
+        <div>
+          <input type='text' placeholder='Ваше имя' required></div>
+        <div>
+          <input type='text' placeholder='Номер телефона' required></div>
+        <div>
+          <input type='text' placeholder='e-mail'>
+        </div>
+        <input class="sendmail" type='submit'  value='Оставить заявку'>
+      </div>
+      </form>
   </footer>
-  <script src="./script/index.js">
-$('.nav-toggle').on('click', function(){
-    $('#menu').toggleClass('active');
-    });
-  </script>
 </body>
 </html>
 

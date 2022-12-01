@@ -1,7 +1,10 @@
 .header{
+  background: url("images/juice.png");
   max-height: 853px;
   min-height: 853px;
   max-width: 1280px;
   min-width: 1280px;
+  left: 0%;
+  right: 0%;
 }
 
