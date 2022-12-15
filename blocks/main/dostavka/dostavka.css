@@ -1,3 +1,13 @@
 .dostavka{
-  text-align:left;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  list-style: 23px;
+  text-align:center;
+
+  width: 441px;
+  height: 72px;
+  left: 139px;
+  top: 1019px;
 }

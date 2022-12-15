@@ -10,16 +10,29 @@
 @import '../blocks/header/__title/header__title.css';
 @import '../blocks/header/submenu/submenu.css';
 @import '../blocks/header/lists/lists.css';
+
 /* Main */
 @import '../blocks/main/main.css';
 @import '../blocks/lists/lists.css';
+@import'../blocks/main/main_title/main_title.css';
+@import'../blocks/main/main_subtitle/main_subtitle.css';
 @import'../blocks/main/advantages/advantages.css';
 @import'../blocks/main/about-us/about-us.css';
 @import'../blocks/main/loyalnost/loyalnost.css';
+@import'../blocks/main/loyaglav/loyaglav.css';
 @import'../blocks/main/dostavka/dostavka.css';
-@import'../blocks/main/right/right.css';
+@import'../blocks/main/aboutcompany/aboutcompany.css';
+@import'../blocks/main/advantages/ad/ad.css';
+@import'../blocks/main/us/us.css';
+@import'../block/main/right/right.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
 @import '../blocks/footer/container/container.css';
+@import '../blocks/footer/title/title.css';
+@import '../blocks/footer/cont/cont.css';
+@import '../blocks/footer/forma/forma.css';
+@import '../blocks/footer/socialbar/socialbar.css';
+@import '../blocks/footer/obratzvon/obratzvon.css';
+@import '../blocks/footer/form-zvonok/form-zvonok.css';
 @import '../blocks/footer/sendmail/sendmail.css';
 

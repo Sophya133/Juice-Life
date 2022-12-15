@@ -9,6 +9,13 @@
 </head>
 <body class="page">
   <header>
+    <style>
+      header{
+        background-image: url('/images/juice.png');
+        background-repeat: no-repeat;
+        background-size: 1280px 853px;
+      }
+     </style>
    <nav class="container">
     <img src="images/logo.svg" width="54" height="42" alt="Логотип компании Juice Life">
     <span>Juice Life</span>
@@ -25,68 +32,90 @@
         <li><a class="list" href="#">Доставка</a></li>
         <li><a class="list" href="#contact">Контакты</a></li>
       </ul>
-      <b class="inf">
-        <img src="images/тел.png" alt="">
-        <span>+7(915)096-14-33</span>
-        <img src="images/избран.png" alt="">
-        <img src="images/корзина.png" alt="">
+        <b class="inf">
+          <img src="images/тел.png" alt="telephone">
+          <span>+7(915)096-14-33</span>
+          <img src="images/избран.png" alt="izbranny tovar">
+          <img src="images/корзина.png" alt="basket">
         </b>
-      <img src="images/juice.png" alt="" >
     <h1 class="header__title">Натуральные и свежие соки</h1>
    </nav>
   </header>
   <main class="main">
     <div class="advantages">
       <h2 class="main__title">Преимущества</h2>
-      <img src="images/fresh fruits.png" alt="" class="right">
+      <img src="images/преимущ.png" width="429" height="277" alt="преимушества соки" class="ad">
+      <img src="images/fresh fruits.png" alt="icon fresh fruits" class="right">
       <h3 class="main__subtitle">Свежие фрукты и овощи</h3>
       <p class="dostavka">Используем только качественные продукты без вредных химических удобрений</p>
-      <img src="images/loyalnost bread.png"  alt="" class="right">
+      <img src="images/loyalnost bread.png"  alt="icon loyalnost" class="right">
       <h3 class="main__subtitle">Программа лояльности</h3>
       <p class="dostavka">Наша компания предлагает гибкую систему лояльности для наших покупателей</p>
-      <img src="images/car.png" alt="" class="right">
+      <img src="images/car.png" alt="icon dostavka" class="right">
       <h3 class="main__subtitle">Быстрая доставка по Москве день в день</h3>
       <p class="dostavka">Доставим Ваш заказ в кротчайшие сроки или в удобное для Вас время</p>
     </div>
     <div class="about-us" id="about">
       <h2 class="main__title">О нас</h2>
-      <p class="dostavka">Мы занимаемся производством и продажей натуральных соков без консерваторов и прочей химии. Наши соки сделаны из самых свежих фруктов, овощей и ягод.
-        Интернет-магазин Juice Life - вот Ваш помощник в поисках свежих и ароматных свежевыжатых соков! Больше нет необходимости искать в магазинах свежие овощи и фрукты, покупать свежевыжималки и делать все дома.
-        Заказывайте наши соки и наслаждайтесь вкусными, недорогими, полезными продуктами в любое время года.
+      <p class="aboutcompany">Мы занимаемся производством и продажей
+        натуральных соков без консерваторов и прочей химии.
+        Наши соки сделаны из самых свежих фруктов, овощей и ягод.
+        Интернет-магазин Juice Life - вот Ваш помощник в
+         поисках свежих и ароматных свежевыжатых соков!
+         Больше нет необходимости искать в магазинах свежие овощи и фрукты, покупать свежевыжималки и делать все дома.
+        Заказывайте наши соки и наслаждайтесь вкусными,
+         недорогими, полезными продуктами в любое время года.
         Juice Life - вкусно, выгодно, удобно!</p>
-        <img src="images/преимущ.png" alt="" >
+        <img src="images/о нас.png" alt="" class="us" >
     </div>
-    <div class="loyalnost">
       <h2 class="main__title">Программа лояльности</h2>
+      <div class="loyalglav">
+        <style>
+          .loyalglav{
+            background-image: url('/images/programloya.png');
+            background-repeat: no-repeat;
+            background-size:1280px 613px;
+          }
+         </style>
+         <div class="loyalnost">
       <p class="dostavka">Вы получите скидку 10% на следующий заказ</p>
       <p class="dostavka">Заполните форму</p>
-      <form class="obratnuj-zayvka" autocomplete="off" action='email.php' method='post'></form>
-      <div class="form-zayvka">
+      <form>
         <div>
-          <input type='text' placeholder='Ваше имя' required></div>
-        <div>
-          <input type='text' placeholder='Номер телефона' required></div>
-        <div>
-          <input type='text' placeholder='e-mail'>
-        </div>
-        <input class="sendmail" type='submit' value='Отправить'>
-      </div>
+        <label for="nickname">Ваше имя:</label>
+        <input type="text" id="nickname" name="nickname"></div>
+      <div>
+        <label for="phone">Ваш номер телефона:</label>
+        <input type="phone" id="user-phone" name="user-phone"></div>
+      <div>
+        <label for="user-email">Ваш e-mail:</label>
+        <input type="email" id="user-email" name="user-email"></div>
+      <div>
+        <input class="sendmail" type='submit'  value='Отправить'></div>
       </form>
     </div>
+  </div>
   </main>
   <footer class="footer" id="contact">
-    <form class="obratnuj-zvonok" autocomplete="off" action='email.php' method='post'>
-      <h2>Контактная информация</h2>
-      <h3>Вы можете связаться любым удобным для вас способом:</h3>
+    <div class="cont">
+    <h2 class="title">Контактная информация</h2>
+    <form class="obratzvon" autocomplete="off" action='email.php' method='post'>
+      <style>
+        .cont{
+          background-image: url('/images/contactinf.png');
+          background-repeat: no-repeat;
+          background-size:1280px 771px;
+        }
+       </style>
+      <h3 class="forma">Вы можете связаться любым удобным для вас способом:</h3>
       <p class="forma"> г. Москва, ул. Новолесная, д.3, стр.1</p>
       <p class="forma">тел. : +7(915) 096-14-33</p>
-      <div class="social-bar-wrap">
-        <a title="Instagram" href="" target="_blank"><i class="fa fa-instagram"></i></a>
-        <a title="Telegram" href="" target="_blank"><i class="fa fa-telegram"></i></a>
-        <a title="VK" href="" target="_blank"><i class="fa fa-VK"></i></a>
+      <div class="socialbar">
+        <img src="images/insta.png" height="29" width="63" alt="instagram icon">
+        <img src="images/telegr.png" height="29" width="59" alt="telegram icon">
+        <img src="images/vk.png" height="33" width="70" alt="vk icon">
       </div>
-  </div>
-      <h3>Или оставьте заявку</h3>
+      <h3 class="forma">Или оставьте заявку</h3>
       <div class="form-zvonok">
         <div>
           <input type='text' placeholder='Ваше имя' required></div>
@@ -96,8 +125,9 @@
           <input type='text' placeholder='e-mail'>
         </div>
         <input class="sendmail" type='submit'  value='Оставить заявку'>
-      </div>
       </form>
+    </div>
+  </div>
   </footer>
 </body>
 </html>

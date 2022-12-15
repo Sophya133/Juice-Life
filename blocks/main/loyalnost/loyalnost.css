@@ -1,6 +1,8 @@
 .loyalnost{
-  max-height: 727px;
-  min-height: 727px;
-  max-width: 1280px;
-  min-width: 1280px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 195px;
+  margin-top: 54px;
+  height: 424px;
 }

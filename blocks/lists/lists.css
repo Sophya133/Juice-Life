@@ -2,9 +2,9 @@
   top:62px;
   list-style-type: none;
   display:flex;
-  justify-content:space-around;
-  margin-left: 34px;
-  margin-right: 34px;
+  justify-content:space-between;
+  padding:0px;
+  margin: 0px;
 }
 .lists li a{
   text-decoration: none;
@@ -20,4 +20,5 @@ li > ul {
   top:25px;
   display:none;
 }
+
 

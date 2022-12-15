@@ -1,11 +1,11 @@
 .header__title{
-  left:318px;
-  top: 407px;
-  position: absolute;
+  padding-top:321px ;
+  padding-left: 318px;
   font-family: 'Raleway';
   font-style: normal ;
+  width: 679px;
   font-weight: 700;
-  text-align: center;
  font-size: 48px;
  line-height: 56px;
+ text-align: center;
 }

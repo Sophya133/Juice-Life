@@ -1,0 +1,14 @@
+.aboutcompany{
+    display: flex;
+    flex-direction: column;
+  position:absolute;
+  margin-top: 34px;
+  width: 541px;
+  height: 301px;
+  font-family:'Raleway' ;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: center;
+}
