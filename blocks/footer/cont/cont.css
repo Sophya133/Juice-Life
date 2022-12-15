@@ -1,4 +1,10 @@
 .cont{
     width: 1280px;
     height: 771px;
+    position: absolute;
+    top: 2710px;
+    left: 0px;
+    background-image: url('/images/contactinf.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }

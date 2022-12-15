@@ -1,8 +1,8 @@
 .lists{
+    display: flex;
+    justify-content: space-between;
     top:62px;
     list-style-type: none;
-    display:flex;
-    justify-content:space-between;
     padding:0px;
     margin: 0px;
   }

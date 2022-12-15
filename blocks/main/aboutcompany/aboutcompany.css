@@ -1,7 +1,8 @@
 .aboutcompany{display: flex;
   align-self: flex-start;
-  margin-left: 44px;
-  margin-top: 34px;
+  position: absolute;
+  left: 44px;
+  top: 1463px;
   width: 541px;
   height: 301px;
   font-family:'Raleway' ;

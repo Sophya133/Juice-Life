@@ -5,4 +5,7 @@
   min-width: 1280px;
   padding-top: 62px;
   padding-left: 48px;
+  background-image: url('/images/juice.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }

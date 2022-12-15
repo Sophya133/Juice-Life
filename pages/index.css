@@ -6,6 +6,7 @@
 /* Header */
 @import '../blocks/header/header.css';
 @import '../blocks/header/nav/container.css';
+@import '../blocks/header/wrap/wrap.css';
 @import '../blocks/header/__title/header__title.css';
 @import '../blocks/header/submenu/submenu.css';
 @import '../blocks/header/lists/lists.css';
@@ -13,6 +14,8 @@
 /* Main */
 @import '../blocks/main/main.css';
 @import'../blocks/main/main_title/main_title.css';
+@import'../blocks/main/main-title3/main-title3.css';
+@import'../blocks/main/main_title/main_title2.css';
 @import'../blocks/main/main_subtitle/main_subtitle.css';
 @import'../blocks/main/advantages/advantages.css';
 @import'../blocks/main/about-us/about-us.css';
