@@ -1,7 +1,6 @@
-.aboutcompany{
-    display: flex;
-    flex-direction: column;
-  position:absolute;
+.aboutcompany{display: flex;
+  align-self: flex-start;
+  margin-left: 44px;
   margin-top: 34px;
   width: 541px;
   height: 301px;
