@@ -5,6 +5,7 @@
 @import '../blocks/page/page.css';
 /* Header */
 @import '../blocks/header/header.css';
+@import '../blocks/header/logo/logo.css';
 @import '../blocks/header/nav/container.css';
 @import '../blocks/header/wrap/wrap.css';
 @import '../blocks/header/__title/header__title.css';
@@ -16,16 +17,24 @@
 @import'../blocks/main/main-title/main-title.css';
 @import'../blocks/main/main-title3/main-title3.css';
 @import'../blocks/main/main-title2/main_title2.css';
-@import'../blocks/main/main_subtitle/main_subtitle.css';
+@import'../blocks/main/mainsubtitle/mainsubtitle.css';
+@import'../blocks/main/mainsubtitle2/mainsubtitle2.css';
+@import'../blocks/main/mainsubtitle3/mainsubtitle3.css';
 @import'../blocks/main/advantages/advantages.css';
 @import'../blocks/main/about-us/about-us.css';
 @import'../blocks/main/loyalnost/loyalnost.css';
 @import'../blocks/main/loyaglav/loyaglav.css';
 @import'../blocks/main/dostavka/dostavka.css';
+@import'../blocks/main/dostavka2/dostavka2.css';
+@import'../blocks/main/dostavka3/dostavka3.css';
 @import'../blocks/main/aboutcompany/aboutcompany.css';
 @import'../blocks/main/advantages/ad/ad.css';
 @import'../blocks/main/us/us.css';
 @import'../block/main/right/right.css';
+@import'../blocks/main/right2/right2.css';
+@import'../blocks/main/forms/forms.css';
+@import'../blocks/main/right3/right3.css';
+
 /* Footer */
 @import '../blocks/footer/footer.css';
 @import '../blocks/footer/container/container.css';
@@ -36,4 +45,5 @@
 @import '../blocks/footer/obratzvon/obratzvon.css';
 @import '../blocks/footer/form-zvonok/form-zvonok.css';
 @import '../blocks/footer/sendmail/sendmail.css';
-
+@import'../blocks/footer/dostavka4/dostavka4.css';
+@import'../blocks/footer/dostavka5/dostavka5.css';

@@ -1,11 +1,12 @@
-.main_subtitle {
+.mainsubtitle {
     font-family: 'Raleway';
     font-style: normal;
     font-size: 20px;
     font-weight: 700px;
     line-height: 23px;
     text-align: center;
-    width: 79px;
-    margin-left: 134px;
-    margin-top: 0px;
+    width: 246px;
+    position: absolute;
+    left: 243px;
+    top: 1000px;
 }
