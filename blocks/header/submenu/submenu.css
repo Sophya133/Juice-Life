@@ -1,7 +1,7 @@
 .submenu {display: none;
   position: absolute;
   left: 356px;
-  padding-top: 65px;
+  top: 90px;
   list-style-type: none;
 }
 .lists li:hover .submenu {display: block;}

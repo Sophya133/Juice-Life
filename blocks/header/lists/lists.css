@@ -1,10 +1,10 @@
 .lists{
     display: flex;
-    justify-content: space-between;
-    top:62px;
+    justify-content: flex-start;
     list-style-type: none;
     padding:0px;
-    margin: 0px;
+    margin-left: 144px;
+    top: 62px;
   }
   .lists li a{
     text-decoration: none;
@@ -19,6 +19,11 @@
     position:absolute;
     top:25px;
     display:none;
+  }
+  .lists li{
+    list-style-type: none;
+    float: left;
+    margin: 0 34px;
   }
 
 

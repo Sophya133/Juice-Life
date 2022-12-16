@@ -1,0 +1,11 @@
+.logotitle{
+  position: absolute;
+  left: 123px;
+  top: 75px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  list-style: 23px;
+  text-align:center;
+}

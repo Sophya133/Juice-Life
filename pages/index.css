@@ -6,6 +6,7 @@
 /* Header */
 @import '../blocks/header/header.css';
 @import '../blocks/header/logo/logo.css';
+@import '../blocks/header/logotitle/logotitle.css';
 @import '../blocks/header/nav/container.css';
 @import '../blocks/header/wrap/wrap.css';
 @import '../blocks/header/__title/header__title.css';
@@ -34,6 +35,8 @@
 @import'../blocks/main/right2/right2.css';
 @import'../blocks/main/forms/forms.css';
 @import'../blocks/main/right3/right3.css';
+@import'../blocks/main/dostavka4/dostavka4.css';
+@import'../blocks/main/dostavka5/dostavka5.css';
 
 /* Footer */
 @import '../blocks/footer/footer.css';
@@ -45,5 +48,4 @@
 @import '../blocks/footer/obratzvon/obratzvon.css';
 @import '../blocks/footer/form-zvonok/form-zvonok.css';
 @import '../blocks/footer/sendmail/sendmail.css';
-@import'../blocks/footer/dostavka4/dostavka4.css';
-@import'../blocks/footer/dostavka5/dostavka5.css';
+
